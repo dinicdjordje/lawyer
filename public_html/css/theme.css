@@ -1903,7 +1903,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: rgba(88, 108, 136, 0.8);
   opacity: 1;
 }
 
@@ -10679,6 +10679,135 @@ footer .copyright a {
 
 .news-single-content .news-tags .tag-title {
   font-weight: 500;
+}
+
+.team-section {
+  padding: 67px 0 61px;
+}
+
+.team-section .team-more {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.team-section .team-member-name {
+  margin-bottom: 1.5rem;
+}
+
+.team-section .team-member-name a {
+  line-height: 2.7rem;
+  font-size: 2.2rem;
+}
+
+.team-section .team-member-info {
+  margin-bottom: 3rem;
+}
+
+.team-section .fa-linkedin-in {
+  color: #1E1E1E;
+  font-size: 3rem;
+}
+
+@media (min-width: 576px) {
+  .team-section .team-member-info {
+    margin-bottom: 10rem;
+  }
+}
+
+.team-members {
+  padding: 50px 0;
+}
+
+.team-members .team-member figure {
+  overflow: hidden;
+}
+
+.team-members .team-member figure img {
+  transition: 1s linear;
+}
+
+.team-members .team-member figure img:hover {
+  transform: scale(1.05);
+}
+
+.team-members .team-member .fa-linkedin-in {
+  position: absolute;
+  right: 15px;
+  bottom: 16px;
+  color: #fff;
+  font-size: 2.5rem;
+  z-index: 5;
+}
+
+.team-members .team-member .fa-linkedin-in:hover {
+  text-decoration: none;
+}
+
+.team-members h5 a {
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  color: #1E1E1E;
+}
+
+.team-members h5 a:hover {
+  text-decoration: none;
+}
+
+.team-members .team-member-position {
+  color: #1A77CD;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  .team-member {
+    padding: 64px 0 133px;
+  }
+}
+
+.contact-lead-section p, .contact-lead-section a {
+  color: #586C88;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.contact-lead-section p span, .contact-lead-section a span {
+  margin-right: 12px;
+  font-size: 2rem;
+}
+
+.contact-section {
+  padding: 64px 0;
+}
+
+.contact-section h2 {
+  line-height: 4.6rem !important;
+}
+
+.contact-section .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px !important;
+  line-height: 50px;
+  padding: 10px;
+}
+
+.contact-section textarea.form-control {
+  height: 350px !important;
+  resize: none;
+}
+
+.contact-section .error-msg * {
+  color: #dc3545;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 992px) {
+  .contact-section {
+    padding: 64px 0 128px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
